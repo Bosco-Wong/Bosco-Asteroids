@@ -31,12 +31,13 @@ class Spaceship extends Floater
 public void hyperSpace(){
   if(keyPressed)
   if(key == 'e' || key == 'E'){
+    delay(1);
     myCenterX = (int)(Math.random()*800);
     myCenterY = (int)(Math.random()*800);
     myXspeed = 0;
     myYspeed = 0;
     myPointDirection = (int)(Math.random()*360);
-   delay(100);
+ 
     
   }
   
