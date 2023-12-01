@@ -35,7 +35,7 @@ public void hyperSpace(){
     myXspeed = 0;
     myYspeed = 0;
     myPointDirection = (int)(Math.random()*360);
-    delay(200);
+    
   }
 }
   
