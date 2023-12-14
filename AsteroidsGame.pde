@@ -11,7 +11,7 @@ void setup(){
  field[x] = new Star();
  }
  
- for(int x  = 0; x < 400; x++)
+ for(int x  = 0; x < 45; x++)
  shower.add(new Asteroid());
 }
 
