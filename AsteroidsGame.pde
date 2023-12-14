@@ -56,7 +56,7 @@ void draw(){
   
   
  if(keyPressed)
-    if(key == 'f' && shoot.size() < 4)
+    if(key == 'f' || key == 'F')
       shoot.add(new Bullet());
      
       
