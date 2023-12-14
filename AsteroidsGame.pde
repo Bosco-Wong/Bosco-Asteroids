@@ -89,7 +89,7 @@ void draw(){
    
    shoot.remove(y);
    y--;
-   
+  break;
    }
    }
     if(shower.size()<20)
