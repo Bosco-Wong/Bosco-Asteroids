@@ -1,8 +1,9 @@
 class Bullet extends Floater{
-  public Bullet(){
+  public Bullet(Spaceship spaceship){
   myCenterX = dog.getX();
   myCenterY = dog.getY();
-  myPointDirection = dog.getmyPointdirection(); }
+  myPointDirection = dog.getmyPointdirection();
+}
   public void show(){
     fill(255,0,0,10);
     ellipse((float)myCenterX,(float)myCenterY, 5, 5);
