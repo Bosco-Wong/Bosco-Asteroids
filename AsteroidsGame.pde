@@ -57,7 +57,7 @@ void draw(){
   
  if(keyPressed)
     if(key == 'f' || key == 'F')
-      shoot.add(new Bullet(dogfffff));
+      shoot.add(new Bullet(dog));
      
       
   for(int x = 0; x < shoot.size(); x++){
