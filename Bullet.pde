@@ -2,7 +2,7 @@ class Bullet extends Floater{
   public Bullet(Spaceship spaceship){
   myCenterX = dog.getX();
   myCenterY = dog.getY();
-  myPointDirection = dog.getmyPointdirection();
+  myPointDirection = spaceship.getmyPointdirection();
 }
   public void show(){
     fill(255,0,0,10);
